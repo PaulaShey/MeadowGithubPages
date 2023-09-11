@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB038B92AAF42A90086271F /* MeadowGithubPagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB038B82AAF42A90086271F /* MeadowGithubPagesApp.swift */; };
+		DAB038BB2AAF42A90086271F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB038BA2AAF42A90086271F /* ContentView.swift */; };
+		DAB038BD2AAF42AA0086271F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB038BC2AAF42AA0086271F /* Assets.xcassets */; };
+		DAB038C12AAF42AA0086271F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB038C02AAF42AA0086271F /* Preview Assets.xcassets */; };
+		DAB038CB2AAF42AA0086271F /* MeadowGithubPagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB038CA2AAF42AA0086271F /* MeadowGithubPagesTests.swift */; };
+		DAB038D52AAF42AA0086271F /* MeadowGithubPagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB038D42AAF42AA0086271F /* MeadowGithubPagesUITests.swift */; };
+		DAB038D72AAF42AA0086271F /* MeadowGithubPagesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB038D62AAF42AA0086271F /* MeadowGithubPagesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB038C72AAF42AA0086271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB038AD2AAF42A90086271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB038B42AAF42A90086271F;
+			remoteInfo = MeadowGithubPages;
+		};
+		DAB038D12AAF42AA0086271F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB038AD2AAF42A90086271F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB038B42AAF42A90086271F;
+			remoteInfo = MeadowGithubPages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB038B52AAF42A90086271F /* MeadowGithubPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeadowGithubPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB038B82AAF42A90086271F /* MeadowGithubPagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeadowGithubPagesApp.swift; sourceTree = "<group>"; };
+		DAB038BA2AAF42A90086271F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB038BC2AAF42AA0086271F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB038BE2AAF42AA0086271F /* MeadowGithubPages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeadowGithubPages.entitlements; sourceTree = "<group>"; };
+		DAB038C02AAF42AA0086271F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB038C62AAF42AA0086271F /* MeadowGithubPagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeadowGithubPagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB038CA2AAF42AA0086271F /* MeadowGithubPagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeadowGithubPagesTests.swift; sourceTree = "<group>"; };
+		DAB038D02AAF42AA0086271F /* MeadowGithubPagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeadowGithubPagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB038D42AAF42AA0086271F /* MeadowGithubPagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeadowGithubPagesUITests.swift; sourceTree = "<group>"; };
+		DAB038D62AAF42AA0086271F /* MeadowGithubPagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeadowGithubPagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB038B22AAF42A90086271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038C32AAF42AA0086271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038CD2AAF42AA0086271F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB038AC2AAF42A90086271F = {
+			isa = PBXGroup;
+			children = (
+				DAB038B72AAF42A90086271F /* MeadowGithubPages */,
+				DAB038C92AAF42AA0086271F /* MeadowGithubPagesTests */,
+				DAB038D32AAF42AA0086271F /* MeadowGithubPagesUITests */,
+				DAB038B62AAF42A90086271F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB038B62AAF42A90086271F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB038B52AAF42A90086271F /* MeadowGithubPages.app */,
+				DAB038C62AAF42AA0086271F /* MeadowGithubPagesTests.xctest */,
+				DAB038D02AAF42AA0086271F /* MeadowGithubPagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB038B72AAF42A90086271F /* MeadowGithubPages */ = {
+			isa = PBXGroup;
+			children = (
+				DAB038B82AAF42A90086271F /* MeadowGithubPagesApp.swift */,
+				DAB038BA2AAF42A90086271F /* ContentView.swift */,
+				DAB038BC2AAF42AA0086271F /* Assets.xcassets */,
+				DAB038BE2AAF42AA0086271F /* MeadowGithubPages.entitlements */,
+				DAB038BF2AAF42AA0086271F /* Preview Content */,
+			);
+			path = MeadowGithubPages;
+			sourceTree = "<group>";
+		};
+		DAB038BF2AAF42AA0086271F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAB038C02AAF42AA0086271F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB038C92AAF42AA0086271F /* MeadowGithubPagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB038CA2AAF42AA0086271F /* MeadowGithubPagesTests.swift */,
+			);
+			path = MeadowGithubPagesTests;
+			sourceTree = "<group>";
+		};
+		DAB038D32AAF42AA0086271F /* MeadowGithubPagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB038D42AAF42AA0086271F /* MeadowGithubPagesUITests.swift */,
+				DAB038D62AAF42AA0086271F /* MeadowGithubPagesUITestsLaunchTests.swift */,
+			);
+			path = MeadowGithubPagesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB038B42AAF42A90086271F /* MeadowGithubPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB038DA2AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPages" */;
+			buildPhases = (
+				DAB038B12AAF42A90086271F /* Sources */,
+				DAB038B22AAF42A90086271F /* Frameworks */,
+				DAB038B32AAF42A90086271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeadowGithubPages;
+			productName = MeadowGithubPages;
+			productReference = DAB038B52AAF42A90086271F /* MeadowGithubPages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB038C52AAF42AA0086271F /* MeadowGithubPagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB038DD2AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPagesTests" */;
+			buildPhases = (
+				DAB038C22AAF42AA0086271F /* Sources */,
+				DAB038C32AAF42AA0086271F /* Frameworks */,
+				DAB038C42AAF42AA0086271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB038C82AAF42AA0086271F /* PBXTargetDependency */,
+			);
+			name = MeadowGithubPagesTests;
+			productName = MeadowGithubPagesTests;
+			productReference = DAB038C62AAF42AA0086271F /* MeadowGithubPagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB038CF2AAF42AA0086271F /* MeadowGithubPagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB038E02AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPagesUITests" */;
+			buildPhases = (
+				DAB038CC2AAF42AA0086271F /* Sources */,
+				DAB038CD2AAF42AA0086271F /* Frameworks */,
+				DAB038CE2AAF42AA0086271F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB038D22AAF42AA0086271F /* PBXTargetDependency */,
+			);
+			name = MeadowGithubPagesUITests;
+			productName = MeadowGithubPagesUITests;
+			productReference = DAB038D02AAF42AA0086271F /* MeadowGithubPagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB038AD2AAF42A90086271F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAB038B42AAF42A90086271F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DAB038C52AAF42AA0086271F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DAB038B42AAF42A90086271F;
+					};
+					DAB038CF2AAF42AA0086271F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DAB038B42AAF42A90086271F;
+					};
+				};
+			};
+			buildConfigurationList = DAB038B02AAF42A90086271F /* Build configuration list for PBXProject "MeadowGithubPages" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB038AC2AAF42A90086271F;
+			productRefGroup = DAB038B62AAF42A90086271F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB038B42AAF42A90086271F /* MeadowGithubPages */,
+				DAB038C52AAF42AA0086271F /* MeadowGithubPagesTests */,
+				DAB038CF2AAF42AA0086271F /* MeadowGithubPagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB038B32AAF42A90086271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB038C12AAF42AA0086271F /* Preview Assets.xcassets in Resources */,
+				DAB038BD2AAF42AA0086271F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038C42AAF42AA0086271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038CE2AAF42AA0086271F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB038B12AAF42A90086271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB038BB2AAF42A90086271F /* ContentView.swift in Sources */,
+				DAB038B92AAF42A90086271F /* MeadowGithubPagesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038C22AAF42AA0086271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB038CB2AAF42AA0086271F /* MeadowGithubPagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB038CC2AAF42AA0086271F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB038D52AAF42AA0086271F /* MeadowGithubPagesUITests.swift in Sources */,
+				DAB038D72AAF42AA0086271F /* MeadowGithubPagesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB038C82AAF42AA0086271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB038B42AAF42A90086271F /* MeadowGithubPages */;
+			targetProxy = DAB038C72AAF42AA0086271F /* PBXContainerItemProxy */;
+		};
+		DAB038D22AAF42AA0086271F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB038B42AAF42A90086271F /* MeadowGithubPages */;
+			targetProxy = DAB038D12AAF42AA0086271F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAB038D82AAF42AA0086271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB038D92AAF42AA0086271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAB038DB2AAF42AA0086271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeadowGithubPages/MeadowGithubPages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeadowGithubPages/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB038DC2AAF42AA0086271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeadowGithubPages/MeadowGithubPages.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeadowGithubPages/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAB038DE2AAF42AA0086271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeadowGithubPages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeadowGithubPages";
+			};
+			name = Debug;
+		};
+		DAB038DF2AAF42AA0086271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeadowGithubPages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeadowGithubPages";
+			};
+			name = Release;
+		};
+		DAB038E12AAF42AA0086271F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeadowGithubPages;
+			};
+			name = Debug;
+		};
+		DAB038E22AAF42AA0086271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YBU4ACFDJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paula.MeadowGithubPagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeadowGithubPages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB038B02AAF42A90086271F /* Build configuration list for PBXProject "MeadowGithubPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB038D82AAF42AA0086271F /* Debug */,
+				DAB038D92AAF42AA0086271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB038DA2AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB038DB2AAF42AA0086271F /* Debug */,
+				DAB038DC2AAF42AA0086271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB038DD2AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB038DE2AAF42AA0086271F /* Debug */,
+				DAB038DF2AAF42AA0086271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB038E02AAF42AA0086271F /* Build configuration list for PBXNativeTarget "MeadowGithubPagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB038E12AAF42AA0086271F /* Debug */,
+				DAB038E22AAF42AA0086271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB038AD2AAF42A90086271F /* Project object */;
+}
